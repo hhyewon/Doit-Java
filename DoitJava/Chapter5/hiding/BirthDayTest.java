@@ -2,9 +2,6 @@ package hiding;
 
 class BirthDay{
 	
-	
-	
-	
 	private int day;
 	private int month;
 	private int year;   // 이렇게만 쓰면 오류가 난다.
@@ -21,9 +18,8 @@ class BirthDay{
 				System.out.println("날짜 오류입니다.");
 			}
 			else {
-		
-		this.day = day;
-	}
+				this.day = day;
+			}
 		}
 	} //모든게 public으로 오픈되어있을 떄 무결성이 침범될 수 있다.
 	// 이걸 private
@@ -32,8 +28,6 @@ class BirthDay{
 		return month;
 	}
 	public void setMonth(int month) {
-		
-		
 		this.month = month;
 	}
 	public int getYear() {
@@ -42,9 +36,6 @@ class BirthDay{
 	public void setYear(int year) {
 		this.year = year;
 	}
-
-	
-	
 }
 
 
