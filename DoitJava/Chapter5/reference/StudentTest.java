@@ -9,10 +9,12 @@ public class StudentTest {
 		studentJames.setKorea(100);
 		studentJames.setMath(100);
 		
+		
 		Student studentTomas = new Student(101,"Tomas");
 		studentTomas.setKorea(30);
 		studentTomas.setMath(50);
 		
+		//Ãâ·Â
 		studentJames.showStudentInfo();
 		studentTomas.showStudentInfo();
 }
