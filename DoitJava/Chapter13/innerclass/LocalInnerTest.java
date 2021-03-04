@@ -18,7 +18,6 @@ class Outer{
 		
 	};
 	
-	
 	public Runnable getRunnable(final int i) { //지역내부 클래스
 		
 		final int localNum = 100; //메서드가 호출될 때 생성
