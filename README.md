@@ -1,8 +1,8 @@
 # Do it! 자바 프로그래밍 입문
 - 입문 대상: 초급 > 중급이상
 - 총 43개 수업˙총 23시간 43분
-- 링크: https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8#
-
+- Link: [Inflearn][id]
+- [id]: https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8#
 
 ## 커리큘럼
 ### 1. 자바 기본 익히기 		✅
@@ -42,7 +42,7 @@
 ### 3. 자바 JDK로 프로그래밍 날개 달기
  + 기본클래스 (1) ✔
  + 기본클래스 (2) ✔
- + 제네릭 프로그래밍 ✔
+ + 제네릭 프로그래밍 
  + 컬렉션 프레임워크 ✔
  + 컬렉션 프레임워크 - Stack, Queue, HashSet ✔
  + 컬렉션 프레임워크 - TreeSet, HashMap, TreeMap ✔
