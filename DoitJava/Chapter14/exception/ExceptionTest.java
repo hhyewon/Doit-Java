@@ -29,11 +29,10 @@ public class ExceptionTest {
 	java.io.FileNotFoundException: a.txt (지정된 파일을 찾을 수 없습니다)
 	Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.io.FileInputStream.close()" because "fis" is null
 		at exception.ExceptionTest.main(ExceptionTest.java:19)
-	* a.txt를 왜 못찾지
 	*/
 	public static void main(String[] args) {
 	
-		try (FileInputStream fis = new FileInputStream("a.txt")){
+		try (FileInputStream fis = new FileInputStream("../DoitJava/Chapter14/a.txt")){
 		
 		} catch (IOException e) {
 			System.out.println(e);
