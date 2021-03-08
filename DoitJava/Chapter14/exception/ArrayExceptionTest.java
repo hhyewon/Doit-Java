@@ -1,0 +1,22 @@
+package exception;
+
+public class ArrayExceptionTest {
+
+	public static void main(String[] args) {
+
+		int[] arr = { 1,2,3,4,5};
+		
+		try {
+			for(int i=0; i<=5; i++) {
+				System.out.println(arr[i]);
+			}
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println(e.toString());
+			return; //finally까지 실행되고 수행됨. >> end가 출력되지않음.
+		}finally {
+			System.out.println("finally");
+		}
+		System.out.println("end");
+	}
+
+}
